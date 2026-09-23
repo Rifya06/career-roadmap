@@ -1,0 +1,138 @@
+{
+  "web-developer": {
+    "title": "Web Developer",
+    "tagline": "Builds the websites and web apps people use every day.",
+    "route_color": "#2F7A6B",
+    "stages": [
+      {
+        "stage": "Foundations",
+        "skills": [
+          { "name": "HTML", "project": "Build a single-page personal profile using only HTML." },
+          { "name": "CSS", "project": "Style the profile page: layout, colors, typography, spacing." },
+          { "name": "Responsive Design", "project": "Make the profile page work on phone, tablet, and desktop." },
+          { "name": "Git & GitHub", "project": "Push the profile page to a GitHub repo and write a README." }
+        ]
+      },
+      {
+        "stage": "Core",
+        "skills": [
+          { "name": "JavaScript", "project": "Add a working to-do list with add, complete, and delete." },
+          { "name": "DOM Manipulation", "project": "Build a live search filter for a list of items." },
+          { "name": "APIs & Fetch", "project": "Build a weather app that pulls live data from a public API." },
+          { "name": "A Frontend Framework (React)", "project": "Rebuild the to-do list as a React app with components and state." }
+        ]
+      },
+      {
+        "stage": "Advanced",
+        "skills": [
+          { "name": "Backend Basics (Node/Express or Python/Flask)", "project": "Build a REST API for the to-do list with a real database." },
+          { "name": "Databases (SQL or MongoDB)", "project": "Store and query users and tasks instead of using local storage." },
+          { "name": "Authentication", "project": "Add login/signup so each user has their own private tasks." },
+          { "name": "Deployment", "project": "Deploy the full app so it has a public URL." }
+        ]
+      }
+    ]
+  },
+  "ui-ux-designer": {
+    "title": "UI/UX Designer",
+    "tagline": "Designs interfaces that are clear, usable, and pleasant.",
+    "route_color": "#E8A33D",
+    "stages": [
+      {
+        "stage": "Foundations",
+        "skills": [
+          { "name": "Design Principles (contrast, hierarchy, alignment)", "project": "Redesign a cluttered flyer or poster applying these principles." },
+          { "name": "Color & Typography", "project": "Build a one-page style guide: palette, type scale, spacing rules." },
+          { "name": "Figma Basics", "project": "Recreate a simple app screen pixel-for-pixel in Figma." },
+          { "name": "User Research Basics", "project": "Interview 3 people about a daily annoyance and summarize findings." }
+        ]
+      },
+      {
+        "stage": "Core",
+        "skills": [
+          { "name": "Wireframing", "project": "Sketch low-fidelity wireframes for a 3-screen mobile app." },
+          { "name": "Prototyping", "project": "Turn the wireframes into a clickable Figma prototype." },
+          { "name": "Usability Testing", "project": "Run the prototype past 3 users and log every point of confusion." },
+          { "name": "Design Systems", "project": "Build a small reusable component library (buttons, inputs, cards)." }
+        ]
+      },
+      {
+        "stage": "Advanced",
+        "skills": [
+          { "name": "Interaction & Motion Design", "project": "Add micro-interactions and transitions to the prototype." },
+          { "name": "Accessibility (WCAG basics)", "project": "Audit the prototype for contrast, tap targets, and screen-reader flow." },
+          { "name": "Handoff to Developers", "project": "Document specs and export assets for a developer to build the screen." },
+          { "name": "Case Study Writing", "project": "Write a full case study of the project for a portfolio." }
+        ]
+      }
+    ]
+  },
+  "data-analyst": {
+    "title": "Data Analyst",
+    "tagline": "Turns raw data into decisions people can act on.",
+    "route_color": "#3F6FBF",
+    "stages": [
+      {
+        "stage": "Foundations",
+        "skills": [
+          { "name": "Excel/Google Sheets", "project": "Clean a messy sales dataset and build a pivot table summary." },
+          { "name": "Statistics Basics", "project": "Compute mean, median, variance, and outliers on a real dataset." },
+          { "name": "SQL", "project": "Write queries to answer 10 business questions from a sample database." },
+          { "name": "Data Visualization Basics", "project": "Turn the pivot table into 3 clear charts telling one story." }
+        ]
+      },
+      {
+        "stage": "Core",
+        "skills": [
+          { "name": "Python (pandas)", "project": "Clean and analyze a public dataset (e.g. Kaggle) end-to-end in a notebook." },
+          { "name": "Data Cleaning at Scale", "project": "Handle missing values, duplicates, and inconsistent formats in a large CSV." },
+          { "name": "Dashboarding (Tableau/Power BI)", "project": "Build an interactive dashboard from the cleaned dataset." },
+          { "name": "Storytelling with Data", "project": "Write a 1-page report with findings and a recommendation." }
+        ]
+      },
+      {
+        "stage": "Advanced",
+        "skills": [
+          { "name": "A/B Testing", "project": "Design and analyze a mock A/B test for a product change." },
+          { "name": "Advanced SQL (joins, window functions)", "project": "Answer multi-table business questions using window functions." },
+          { "name": "Basic Machine Learning", "project": "Build a simple regression or classification model on real data." },
+          { "name": "Presenting to Stakeholders", "project": "Present the full analysis to a mock audience with a live Q&A." }
+        ]
+      }
+    ]
+  },
+  "data-scientist": {
+    "title": "Data Scientist",
+    "tagline": "Builds models and experiments to answer harder questions from data.",
+    "route_color": "#8956A3",
+    "stages": [
+      {
+        "stage": "Foundations",
+        "skills": [
+          { "name": "Python", "project": "Solve 20 small data-manipulation problems in Python." },
+          { "name": "Statistics & Probability", "project": "Simulate a probability problem (e.g. Monty Hall) in code." },
+          { "name": "SQL", "project": "Extract and join data from a multi-table database." },
+          { "name": "Data Visualization", "project": "Explore a dataset visually before touching any model." }
+        ]
+      },
+      {
+        "stage": "Core",
+        "skills": [
+          { "name": "Pandas & NumPy", "project": "Full exploratory data analysis on a messy real-world dataset." },
+          { "name": "Machine Learning Fundamentals", "project": "Train and evaluate 3 different models on the same dataset." },
+          { "name": "Feature Engineering", "project": "Improve model accuracy purely through better features." },
+          { "name": "Model Evaluation", "project": "Compare models with proper metrics and cross-validation." }
+        ]
+      },
+      {
+        "stage": "Advanced",
+        "skills": [
+          { "name": "Deep Learning Basics", "project": "Train a small neural network on an image or text dataset." },
+          { "name": "MLOps Basics", "project": "Package a model behind an API and version it properly." },
+          { "name": "Experiment Design", "project": "Design an experiment to test whether a model actually helps." },
+          { "name": "Communicating Results", "project": "Present a model's results and limitations to a non-technical audience." }
+        ]
+      }
+    ]
+  }
+}
